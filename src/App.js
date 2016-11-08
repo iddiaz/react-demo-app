@@ -52,11 +52,11 @@ export default class App extends Component {
   render () {
     return (
       <div>
-        <h3>TODO</h3>
+        <h3>Componente demo</h3>
         <TodoList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
           <input onChange={this.handleChange} value={this.state.text} />
-          <button>{'Add #' + (this.state.items.length + 1)}</button>
+          <button>{'Add ' + (this.state.items.length + 1)}</button>
         </form>
       </div>
     )
