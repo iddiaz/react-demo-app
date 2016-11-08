@@ -21,6 +21,10 @@ export default class App extends Component {
       id: Date.now()
     }
 
+  handleClick() {
+    //todo
+  }
+
     //setState puede recibir un objeto o una funcion y la funcion recive un parámetro que es el estado previo, entonces la funcion lo que tendrá que devolver es el nuevo estado que va a tenar
     // this.setState({items: [1,2,3,..]})
     
